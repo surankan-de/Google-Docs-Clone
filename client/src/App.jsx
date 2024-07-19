@@ -23,7 +23,7 @@ function App() {
         
         
         <Route path ='/documents/:id'element ={<TextEditor/>} />
-        <Route path = "/"  element = {<Navigate to={`/documents/${uuidV4}`} replace/>}/> 
+        <Route exact path = "/"  element = {<Navigate to={`/documents/${uuidV4}`} replace/>}/> 
         
         
         
